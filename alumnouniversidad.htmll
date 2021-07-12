@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Formularios Alumnos</title>
+     <link rel="stylesheet" type="text/css" href="estilouni.css">
+
+</head>
+<body>
+     <form action="alumnouniversidad.php" method="POST">
+         <table>
+         	  <tr>
+                      <td> <input type="text" name="nombre" placeholder="Escribe tu nombre"> 
+                      </td>
+              </tr>
+              <tr>
+              	 <td> <input type="password" name="contraseña" placeholder="Escribe tu contraseña"> 
+                      </td>
+              </tr>
+
+              <tr>
+                         <td>
+                          <input type="radio" name="genero" value="F" id="femenino"/> 
+                          <label for="femenino">FEMENINO</label>
+
+                          <input type="radio" name="genero" value="M" id="masculino" /> 
+                          <label for="masculino">MASCULINO</label> 
+
+                      </td>
+
+              </tr>
+             <tr>
+              <td><input type="email" name="email" placeholder="Escribe tu correo">
+              	
+              </td>
+
+             </tr>
+
+             <tr> 
+                <td>
+             	<select name="asignatura"> 
+             	  <option value="html">HTML
+             	  </option>
+             	  <option value="css">CSS
+             	  </option>
+             	  <option value="javascript">JAVASCRIPT
+             	  </option>
+             	  <option value="php">PHP
+             	  </option>
+             	  
+             </select>
+               </td>
+             </tr>
+                    <tr>  <td><input type="number" name="telefono" placeholder="Escribe el numero">
+                    </td>
+                    </tr>
+                  <tr>  <td><input type="submit" name="enviar" value="ENVIAR">
+                    </td>
+                    </tr>
+
+
+
+
+         </table>
+
+
+
+
+     </form>
+
+
+	</body>
+</html>
